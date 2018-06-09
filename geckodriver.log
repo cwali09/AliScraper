@@ -5477,3 +5477,145 @@ JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluatio
 JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
 JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1528525790653	geckodriver	INFO	geckodriver 0.20.1
+1528525790682	geckodriver	INFO	Listening on 127.0.0.1:56288
+1528525791658	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.fxL9c77RVwHZ"
+2018-06-09 01:29:58.366 plugin-container[33435:457106] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-09 01:29:59.164 plugin-container[33439:457213] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9837, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528525799931	Marionette	INFO	Listening on port 56305
+1528525800042	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528572983410	geckodriver	INFO	geckodriver 0.20.1
+1528572983427	geckodriver	INFO	Listening on 127.0.0.1:60606
+1528572984421	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.aa1SA5oKTq1i"
+2018-06-09 14:36:29.817 plugin-container[82683:995685] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9c33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-09 14:36:30.969 plugin-container[82686:995809] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528572991622	Marionette	INFO	Listening on port 60622
+1528572991707	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x16bb60800)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x17085c800)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x170872000)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x168946000)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x16eb5c000)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x17ed78800)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x182652000)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x1887dc800)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x18b7a6000)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x18b845000)::ForceLoseContext
+JavaScript warning: https://assets.alicdn.com/g/secdev/sufei_data/3.5.0/index.js, line 1: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(0x186d96000)::ForceLoseContext
+[Child 82683, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+2018-06-09 15:23:34.191 plugin-container[88123:1075044] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1528575954027	geckodriver	INFO	geckodriver 0.20.1
+1528575954048	geckodriver	INFO	Listening on 127.0.0.1:63406
+1528575955056	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.mnpXNdpG4bLK"
+2018-06-09 15:25:58.947 plugin-container[88415:1079146] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9937, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-09 15:25:59.778 plugin-container[88419:1079243] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528575960255	Marionette	INFO	Listening on port 63422
+1528575960464	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528579415175	geckodriver	INFO	geckodriver 0.20.1
+1528579415206	geckodriver	INFO	Listening on 127.0.0.1:61108
+1528579416196	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.b1d2VxYAdrvy"
+2018-06-09 16:23:40.944 plugin-container[94652:1162730] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a2f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-09 16:23:41.713 plugin-container[94657:1162823] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9537, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528579422195	Marionette	INFO	Listening on port 61129
+1528579422311	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528579460113	geckodriver	INFO	geckodriver 0.20.1
+1528579460164	geckodriver	INFO	Listening on 127.0.0.1:61606
+1528579461101	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.tZakmnB1hM01"
+2018-06-09 16:24:25.608 plugin-container[94799:1164817] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a13, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528579466775	Marionette	INFO	Listening on port 61627
+1528579466957	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-09 16:24:29.134 plugin-container[94805:1165007] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x983b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript error: chrome://global/content/browser-child.js, line 320: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebNavigation.goBack]
+JavaScript error: chrome://global/content/browser-child.js, line 320: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebNavigation.goBack]
+JavaScript error: chrome://global/content/browser-child.js, line 320: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebNavigation.goBack]
+JavaScript error: chrome://global/content/browser-child.js, line 320: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebNavigation.goBack]
+JavaScript error: chrome://global/content/browser-child.js, line 320: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebNavigation.goBack]
+JavaScript error: chrome://global/content/browser-child.js, line 320: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebNavigation.goBack]
+JavaScript error: chrome://global/content/browser-child.js, line 320: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebNavigation.goBack]
+JavaScript error: chrome://global/content/browser-child.js, line 320: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebNavigation.goBack]
+JavaScript error: chrome://global/content/browser-child.js, line 320: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWebNavigation.goBack]
+1528579521616	geckodriver	INFO	geckodriver 0.20.1
+1528579521630	geckodriver	INFO	Listening on 127.0.0.1:62184
+1528579522626	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.kAVPYqjdKAQP"
+2018-06-09 16:25:25.328 plugin-container[94932:1166944] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528579526088	Marionette	INFO	Listening on port 62204
+1528579526146	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-09 16:25:26.455 plugin-container[94933:1167045] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-header/20180604122511/buyer/front/ae-header.js, line 4: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement

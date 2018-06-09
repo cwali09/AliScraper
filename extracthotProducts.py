@@ -1,6 +1,28 @@
 import pickle
 from selenium import webdriver
 import time
+import os
+from selenium.webdriver.chrome.options import Options  
+from selenium.webdriver.common.keys import Keys
+
+import csv
+import requests
+import selenium.webdriver.chrome.service as service
+
+
+#Set headless Chrome Driver
+chrome_options = Options()
+chrome_options.set_headless(headless=True)
+driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver"), chrome_options = chrome_options)
+driver.get('https://www.google.com')
+
+
+# chrome_options = webdriver.ChromeOptions()
+# chrome_options.add_argument('--no-sandbox')
+# chrome_options.add_argument('--window-size=1420,1080')
+# chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--disable-gpu')
+# driver = webdriver.Chrome(chrome_options=chrome_options)
 
 # browser = webdriver.Firefox()
 
@@ -70,7 +92,8 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 
-driver = webdriver.Firefox()
+###########driver = webdriver.Firefox()
+
 # driver.get("https://aliexpress.com")
 # cookies = pickle.load(open("cookies.pickle", "rb"))
 # for cookie in cookies:
@@ -210,6 +233,7 @@ def printReviews(productUrl):
             buyerInfo = soup.find('div', class_ = 'feedback-container').find('div', class_ = 'feedback-list-wrap').find_all('div', class_ = "feedback-item clearfix")
             userInfoGroup.append(buyerInfo)
             for feedbackItem in userInfoGroup[i]:
+                
                 print(feedbackItem.find('div', class_ = 'fb-main').find('div', class_ = 'f-content').find('dl', class_ = 'buyer-review').find('dt', 'buyer-feedback').find('span').string)
             
             #Try to find pagination
@@ -233,8 +257,6 @@ def printReviews(productUrl):
            # driver.refresh()
         i+=1
             
-    
-    print('Look above')
     buyerInfo = soup.find('div', class_ = 'feedback-container').find('div', class_ = 'feedback-list-wrap').find_all('div', class_ = "feedback-item clearfix")
     for feedbackItem in buyerInfo:
         print(feedbackItem.find('div', class_ = 'fb-main').find('div', class_ = 'f-content').find('dl', class_ = 'buyer-review').find('dt', 'buyer-feedback').find('span').string)
@@ -242,11 +264,8 @@ def printReviews(productUrl):
 
 
 if __name__ == '__main__':
-    #extract_product_info('https://www.aliexpress.com/item/Baseus-Lightning-For-iPhone-Cable-2-0A-Fast-Data-Sync-Charger-USB-Cable-For-iPhone-6/32718277406.html?spm=a2g01.8286187.3.1.44b525c4mnXiw0&scm=1007.14594.99248.0&scm_id=1007.14594.99248.0&scm-url=1007.14594.99248.0&pvid=7ad5dd56-a817-462e-890d-793673a3deca')
-    printReviews('https://feedback.aliexpress.com/display/productEvaluation.htm?productId=32718277406&ownerMemberId=221071036&companyId=231015615&memberType=sellerstartValidDate=i18n=true')
-
-import csv
-import requests
+    extract_product_info('https://www.aliexpress.com/item/Baseus-Lightning-For-iPhone-Cable-2-0A-Fast-Data-Sync-Charger-USB-Cable-For-iPhone-6/32718277406.html?spm=a2g01.8286187.3.1.44b525c4mnXiw0&scm=1007.14594.99248.0&scm_id=1007.14594.99248.0&scm-url=1007.14594.99248.0&pvid=7ad5dd56-a817-462e-890d-793673a3deca')
+    printReviews('https://feedback.aliexpress.com/display/productEvaluation.htm?productId=32718277406&ownerMemberId=221071036&companyId=231015615&memberType=sellerstartValidDate=i18n=true&page=4')
 
 
 def extract_product_reviews(product_id, max_page=100):
