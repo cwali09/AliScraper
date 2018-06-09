@@ -180,20 +180,33 @@ def extract_product_info(product_url):
     return row
 
 def printReviews(productUrl):
+    #Open up FireFox & extract the page source code
     driver.get(productUrl)
     pageSource = driver.page_source
     soup = BeautifulSoup(pageSource, "html.parser")
-        
+    
+    # We will save each User/Buyer's info into an array.
+    # The User information will come in as an object, grouped together, hence the name "userInfoGroup"
+
     userInfoGroup = []
     i = 0
+    # If the element that allows you to paginate to the next page is found, then we'll loop
+    # *******PENDING PROBLEM: If it's not found, it'll throw an error. Come back and handle it.
     while (soup.find('div', {'id': 'complex-pager'})
     .find('div', class_ = 'ui-pagination ui-pagination-front ui-pagination-body util-clearfix')
     .find('div', class_ = 'ui-pagination-navi util-left')
     .find('a', class_ = 'ui-pagination-next ui-goto-page')):
-        #driver.refresh()
 
-        try:
+        pageSource = driver.page_source
+        #print(driver.page_source)
+        soup = BeautifulSoup(pageSource, "html.parser")
+
+        error_page_title_found = soup.find('title').string == "AliExpress.com - Maintaining"
+        print(error_page_title_found)
+            
             #Try to find buyer information
+        if not (error_page_title_found):
+
             buyerInfo = soup.find('div', class_ = 'feedback-container').find('div', class_ = 'feedback-list-wrap').find_all('div', class_ = "feedback-item clearfix")
             userInfoGroup.append(buyerInfo)
             for feedbackItem in userInfoGroup[i]:
@@ -202,19 +215,22 @@ def printReviews(productUrl):
             #Try to find pagination
             button = driver.find_element_by_xpath('/html/body/div/div[5]/div/div/a[4]')
             button.click()
-            pageSource = driver.page_source
-            soup = BeautifulSoup(pageSource, "html.parser")
 
-        except: 
+        error_page_title_found = soup.find('title').string == "AliExpress.com - Maintaining"
+
+        if(error_page_title_found): 
             #AliExpress has kicked you out. Go back 1 page to resume
             print("Error. AliExpress has kicked you out.")
+            error_page_title = soup.find('title').string
+            print(error_page_title)
             driver.execute_script("window.history.go(-1)") #Go back to the last webpage you visited
-            time.sleep(2)
+            time.sleep(1)
+
+            pageSource = driver.page_source
+            soup = BeautifulSoup(pageSource, "html.parser")
+            i-=1
 
            # driver.refresh()
-            pageSource = driver.page_source
-            print(driver.page_source)
-            soup = BeautifulSoup(pageSource, "html.parser")
         i+=1
             
     

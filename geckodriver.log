@@ -5345,3 +5345,135 @@ JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluatio
 JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
 JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
 JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528512395012	geckodriver	INFO	geckodriver 0.20.1
+1528512395026	geckodriver	INFO	Listening on 127.0.0.1:50375
+1528512396032	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.SQXaz7mMk1Jh"
+2018-06-08 21:46:40.607 plugin-container[10081:153673] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x983b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-08 21:46:41.791 plugin-container[10096:153782] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528512402594	Marionette	INFO	Listening on port 50391
+1528512402810	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528512594746	geckodriver	INFO	geckodriver 0.20.1
+1528512594769	geckodriver	INFO	Listening on 127.0.0.1:50810
+1528512595759	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.sanrZT1TBTDO"
+2018-06-08 21:49:59.190 plugin-container[10451:157706] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-08 21:49:59.888 plugin-container[10467:157832] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9437, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528512600109	Marionette	INFO	Listening on port 50826
+1528512600210	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528512687036	geckodriver	INFO	geckodriver 0.20.1
+1528512687059	geckodriver	INFO	Listening on 127.0.0.1:51103
+1528512688040	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.LCUghzQ2pW02"
+2018-06-08 21:51:31.658 plugin-container[10614:160397] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-08 21:51:32.424 plugin-container[10616:160511] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9537, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528512692782	Marionette	INFO	Listening on port 51119
+1528512692873	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528512939782	geckodriver	INFO	geckodriver 0.20.1
+1528512939814	geckodriver	INFO	Listening on 127.0.0.1:51385
+1528512940800	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.4Ktpdu9w2aNm"
+2018-06-08 21:55:44.692 plugin-container[11041:166983] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-08 21:55:45.497 plugin-container[11042:167065] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528512945829	Marionette	INFO	Listening on port 51402
+1528512945898	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528513691516	geckodriver	INFO	geckodriver 0.20.1
+1528513691531	geckodriver	INFO	Listening on 127.0.0.1:51781
+1528513692530	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.cyxg6lN6YTSK"
+2018-06-08 22:08:15.536 plugin-container[12423:183511] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x983b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-08 22:08:16.283 plugin-container[12424:183609] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x943b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528513696415	Marionette	INFO	Listening on port 51797
+1528513696434	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+2018-06-08 22:14:09.847 plugin-container[13051:194287] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9737, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1528514163884	geckodriver	INFO	geckodriver 0.20.1
+1528514163908	geckodriver	INFO	Listening on 127.0.0.1:52208
+1528514164894	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.zoZyw3beYL86"
+2018-06-08 22:16:08.139 plugin-container[13278:197054] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-08 22:16:08.863 plugin-container[13279:197134] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528514168937	Marionette	INFO	Listening on port 52224
+1528514169055	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528514209095	geckodriver	INFO	geckodriver 0.20.1
+1528514209122	geckodriver	INFO	Listening on 127.0.0.1:52436
+1528514210100	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.M3oa0hVRMuQ0"
+2018-06-08 22:16:53.413 plugin-container[13362:198918] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9933, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-08 22:16:54.215 plugin-container[13363:198993] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9737, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528514214474	Marionette	INFO	Listening on port 52454
+1528514214520	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528514365156	geckodriver	INFO	geckodriver 0.20.1
+1528514365205	geckodriver	INFO	Listening on 127.0.0.1:52838
+1528514366123	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.9zynm4gYimXV"
+2018-06-08 22:19:28.953 plugin-container[13634:203760] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9933, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-08 22:19:29.708 plugin-container[13635:203839] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x993b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528514369912	Marionette	INFO	Listening on port 52854
+1528514370096	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528514473493	geckodriver	INFO	geckodriver 0.20.1
+1528514473512	geckodriver	INFO	Listening on 127.0.0.1:53060
+1528514474523	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.w1rIbfN8Njx9"
+2018-06-08 22:21:18.831 plugin-container[13812:207037] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9d3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528514479964	Marionette	INFO	Listening on port 53076
+1528514480082	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-08 22:21:21.066 plugin-container[13828:207209] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x983b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+1528514621201	geckodriver	INFO	geckodriver 0.20.1
+1528514621221	geckodriver	INFO	Listening on 127.0.0.1:53384
+1528514622208	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/26/n11h21cn2wzdr4rnl3jbg11r0000gn/T/rust_mozprofile.k05AzMWkczbh"
+2018-06-08 22:23:45.663 plugin-container[14060:212958] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-08 22:23:46.354 plugin-container[14064:213068] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528514626746	Marionette	INFO	Listening on port 53401
+1528514626811	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+JavaScript warning: https://i.alicdn.com/ae-feedback-ui/display/productEvaluation/??index.31ba4dd3.js, line 3: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
