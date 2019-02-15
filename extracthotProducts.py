@@ -4,10 +4,18 @@ import time
 import os
 from selenium.webdriver.chrome.options import Options  
 from selenium.webdriver.common.keys import Keys
-
+import selenium.webdriver.chrome.service as service
 import csv
 import requests
-import selenium.webdriver.chrome.service as service
+import matplotlib.pyplot as plt
+import pandas as pd
+import matplotlib
+from selenium import webdriver
+import pickle
+import json
+from datetime import datetime
+from bs4 import BeautifulSoup
+import sys
 
 
 #Set headless Chrome Driver
@@ -16,89 +24,11 @@ chrome_options.set_headless(headless=True)
 driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver"), chrome_options = chrome_options)
 driver.get('https://www.google.com')
 
-
-# chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_argument('--no-sandbox')
-# chrome_options.add_argument('--window-size=1420,1080')
-# chrome_options.add_argument('--headless')
-# chrome_options.add_argument('--disable-gpu')
-# driver = webdriver.Chrome(chrome_options=chrome_options)
-
-# browser = webdriver.Firefox()
-
-
-# def get_cookies():
-#     browser.get("https://login.aliexpress.com/buyer.htm?return=https%3A%2F%2Fwww.aliexpress.com%2F&random=CEA73DF4D81D4775227F78080B9B6126")
-#     print('input your username and password in Firefox and hit Submit')
-#     input('Hit Enter here if you have summited the form: <Enter>')
-#     cookies = browser.get_cookies()
-#     pickle.dump(cookies, open("cookies.pickle", "wb"))
-
-
-# def set_cookies():
-#     browser.get("https://aliexpress.com")
-#     cookies = pickle.load(open("cookies.pickle", "rb"))
-#     for cookie in cookies:
-#         browser.add_cookie(cookie)
-#     browser.get("https://bestselling.aliexpress.com/en")
-
-
-# if __name__ == '__main__':
-#     get_cookies()
-
-from selenium import webdriver
-import pickle
-import time
-
-
-# driver = webdriver.Firefox()
-# driver.get("https://aliexpress.com")
-# cookies = pickle.load(open("cookies.pickle", "rb"))
-# for cookie in cookies:
-#     driver.add_cookie(cookie)
-
-
-# def extract_product_urls_from_list_page(list_page_url):
-#     driver.get(list_page_url)
-#     time.sleep(5)
-#     cats = driver.find_elements_by_css_selector('span.title')
-
-#     all_links = set()
-#     for ind, cat in enumerate(cats):
-#         print(cat.text)
-#         try:
-#             cat.click()
-#         except Exception:
-#             continue
-#         if ind == 0:
-#             items = driver.find_elements_by_class_name('item-desc')
-#             links = [item.get_attribute('href') for item in items]
-#         else:
-#             items = driver.find_elements_by_css_selector('div.title > a')
-#             links = [item.get_attribute('href') for item in items]
-#         for link in links:
-#             all_links.add(link)
-#         time.sleep(2)
-#     return all_links
-
-
-# if __name__ == '__main__':
-#     extract_product_urls_from_list_page('https://sale.aliexpress.com/__pc/bestselling.htm')
-
-from selenium import webdriver
-import json
-import pickle
-from datetime import datetime
-from bs4 import BeautifulSoup
-
-
-###########driver = webdriver.Firefox()
-
-# driver.get("https://aliexpress.com")
-# cookies = pickle.load(open("cookies.pickle", "rb"))
-# for cookie in cookies:
-#     driver.add_cookie(cookie)
-
+#driver = webdriver.Firefox()
+rawProductIdentity = sys.argv[2]
+rawUrl = sys.argv[1]
+print(rawProductIdentity)
+print(rawUrl)
 
 def extract_product_info(product_url):
     driver.get(product_url)
@@ -264,7 +194,7 @@ def printReviews(productUrl):
 
 
 if __name__ == '__main__':
-    extract_product_info('https://www.aliexpress.com/item/Baseus-Lightning-For-iPhone-Cable-2-0A-Fast-Data-Sync-Charger-USB-Cable-For-iPhone-6/32718277406.html?spm=a2g01.8286187.3.1.44b525c4mnXiw0&scm=1007.14594.99248.0&scm_id=1007.14594.99248.0&scm-url=1007.14594.99248.0&pvid=7ad5dd56-a817-462e-890d-793673a3deca')
+    extract_product_info(rawUrl)
     printReviews('https://feedback.aliexpress.com/display/productEvaluation.htm?productId=32718277406&ownerMemberId=221071036&companyId=231015615&memberType=sellerstartValidDate=i18n=true&page=4')
 
 
@@ -326,7 +256,7 @@ def extract_product_reviews(product_id, max_page=100):
         filtered_reviews.append(data)
 
     keys = filtered_reviews[0].keys()
-    with open('reviews.csv', 'w') as output_file:
+    with open('reviews.csv', 'w', encoding='utf-8') as output_file:
         dict_writer = csv.DictWriter(output_file, keys)
         dict_writer.writeheader()
         dict_writer.writerows(filtered_reviews)
@@ -334,10 +264,7 @@ def extract_product_reviews(product_id, max_page=100):
 
 
 if __name__ == '__main__':
-    extract_product_reviews('32718277406') ###this line
-import matplotlib.pyplot as plt
-import pandas as pd
-import matplotlib
+    extract_product_reviews(rawProductIdentity) ###this line, refer back to VERY TOP
 matplotlib.style.use('ggplot')
 
 df = pd.read_csv('reviews.csv')
